@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pageButtons {
+  min-width: 30px;
+  margin: 0 5px 10px;
+  text-align: center;
+  background-color: #EDE6FF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}

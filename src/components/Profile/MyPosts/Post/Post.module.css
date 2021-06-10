@@ -1,0 +1,19 @@
+.wrPost {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+}
+
+.wrImg {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.wrImg img {
+  border-radius: 50%;
+}

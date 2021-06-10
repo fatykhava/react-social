@@ -1,0 +1,65 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 100px;
+  grid-gap: 10px;
+}
+
+.dialogsItems {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.dialogsList {
+  margin-right: 20px;
+}
+
+.dialog {
+  margin-bottom: 10px;
+}
+
+.dialog > a {
+  display: flex;
+  align-items: center;
+}
+
+.wrImg {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.wrImg img {
+  border-radius: 50%;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+.messages {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  padding: 20px;
+  background-color: azure;
+}
+
+.messagesList {
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message:nth-child(2n) {
+  text-align: right;
+}
+
+.form {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+}
