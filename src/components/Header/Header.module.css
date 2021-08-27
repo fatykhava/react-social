@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  padding: 0 15px;
+  background-color: #EDE6FF;
+}
+.wrLogo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.logo img {
+  border-radius: 50%;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkslategrey;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.wrLogin a,
+.wrLogin span,
+.logoutBtn {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: darkslategrey;
+}
+
+.logoutBtn {
+  background-color: transparent;
+  border: none;
+}

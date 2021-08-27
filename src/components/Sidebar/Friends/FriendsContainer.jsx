@@ -1,10 +1,10 @@
-import React from 'react';
-import Friends from "./Friends";
-import {connect} from "react-redux";
+import Friends from './Friends';
+import {connect} from 'react-redux';
 
 const mapStateToProps = (state) => {
   return {
-    friends: state.sidebar.friends
+    friends: state.sidebar.friends,
+    isAuth: state.auth.isAuth
   };
 }
 

@@ -6,7 +6,7 @@ const Friend = (props) => {
     <li className={style.item}>
       <div>
         <div className={`${style.wrImg} circle`}>
-          <img src={props.avatar} alt="avatar"/>
+          <img src={props.avatar} alt='avatar'/>
         </div>
         <p>{props.name}</p>
       </div>

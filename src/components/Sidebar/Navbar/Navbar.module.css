@@ -1,0 +1,16 @@
+.list {
+  margin-bottom: 50px;
+}
+
+.item {
+  margin-bottom: 5px;
+}
+
+.item a {
+  font-size: 18px;
+  color: #000;
+}
+
+.item a.active {
+  font-weight: bold;
+}
